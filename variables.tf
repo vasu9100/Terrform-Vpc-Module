@@ -123,3 +123,50 @@ variable "peer_role" {
   default = "peering-coonection"
 
 }
+
+variable "vpc_name" {
+  type = string
+  default = "vpc"
+  
+}
+
+variable "private_route_name" {
+  type = string
+  default = "private-route"
+  
+}
+variable "public_route_name" {
+  type = string
+  default = "public-route"
+  
+}
+
+variable "database_route_name" {
+  type = string
+  default = "database-route"
+  
+}
+
+variable "nat_gateway_name" {
+  type = string
+  default = "nat-gateway"
+  
+}
+
+variable "eip_name" {
+  type = string
+  default = "elastic-ip"
+  
+}
+
+variable "internetgateway_name" {
+  type = string
+  default = "internetgateway"
+  
+}
+
+variable "vpc_peering_name" {
+  type = string
+  default = "vpc-peering"
+  
+}
