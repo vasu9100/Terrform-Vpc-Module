@@ -38,3 +38,16 @@ variable "peering_vpc_id" {
   default = ""
   
 }
+
+variable "application_name" {
+  type = string
+  default = "Roboshop"
+
+  
+}
+
+variable "enviornment" {
+  type = string
+  default = "dev"
+  
+}
