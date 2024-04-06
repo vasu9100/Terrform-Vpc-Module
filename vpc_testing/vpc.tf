@@ -1,5 +1,5 @@
 module "vpc_roboshop" {
-  source = "github.com/vasu9100/Terrform-Vpc-Module/vpc_module"
+  source = "github.com/vasu9100/Terrform-Vpc-Module/vpc_module.git?ref=main"
   cidr_block      = var.cidr_block
   public_subnet   = var.public_subnet
   private_subnet  = var.private_subnet
