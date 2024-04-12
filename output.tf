@@ -11,15 +11,15 @@ output "az-names" {
 }
 
 output "public_subnet_range" {
-  value = aws_subnet.public_subnet[*].cidr_block
+  value = aws_subnet.public_subnet[*].id
 }
 
 output "private_subnet_range" {
-  value = aws_subnet.private_subnet[*].cidr_block
+  value = aws_subnet.private_subnet[*].id
 }
 
 output "database_subnet_range" {
-  value = aws_subnet.database_subnet[*].cidr_block
+  value = aws_subnet.database_subnet[*].id
 }
 
 output "nat_id" {
@@ -54,3 +54,4 @@ output "database_route_table" {
   value = aws_route_table.database_route_table.id
 
 }
+
